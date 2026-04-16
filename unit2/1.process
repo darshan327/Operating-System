@@ -1,0 +1,86 @@
+  1. 😶‍🌫️ What is a Process || Process In Memory || Process Management In Operating System ?
+    => A program that is currently executing.
+     It includes code, data, and resources like CPU, memory, and files.
+
+      +------------------+
+      |   Stack          |  ← function calls, local variables
+      +------------------+
+      |   Heap           |  ← dynamic memory (malloc/new)
+      +------------------+
+      |   Data Segment   |  ← global & static variables
+      +------------------+
+      |   Text Segment   |  ← program code 
+      +------------------+
+
+ 
+ 
+    2.😊  Process States || Diagram of Process States || Process State Transition Diagram - Operating System ?
+
+   A process goes through different states during execution:
+
+     New → Process is being created
+    Ready → Waiting for CPU
+    Running → Currently executing
+    Waiting (Blocked) → Waiting for I/O or event
+    Terminated → Execution finished
+
+
+    3.😁 Process Control Block In Operating Systems || PCB In OS || Process In operating systems ?
+       A Process Control Block (PCB) is a data structure used by the OS to store all information about a process
+
+       Process ID (PID)
+       Process State (Ready, Running, etc.)
+      Program Counter (next instruction)
+      CPU Registers
+      Memory Information
+      I/O Status Information
+
+
+   4.😂 Context Switching In Operating System || Process Management In Operating Systems?
+         The Context switching is the process of saving the current process state and loading another
+           process state so the CPU can switch between processes.
+
+        * Save current process data (CPU registers, program counter)
+        * Load next process data from PCB
+
+        Process management is the function of the OS that handles processes.
+        * Creating and terminating processes
+        * Scheduling processes (CPU allocation)
+        * Maintaining Process Control Block (PCB)
+        * Handling process states (Ready, Running, Waiting)
+
+  
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 

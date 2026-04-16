@@ -1,0 +1,31 @@
+   
+    1.😀 Scheduling Queues In Process Management || Queue Diagram Representation of process scheduling?
+      Scheduling queues are used by the OS to manage processes waiting for execution.
+    ✅ Types:
+      Job Queue → all processes in the system
+      Ready Queue → processes waiting for CPU
+      Device Queue → processes waiting for I/O
+    🔄 Flow:
+       Job Queue → Ready Queue
+       Ready Queue → CPU (Running)
+       Running → Device Queue (for I/O)
+       After I/O → back to Ready Queue 
+
+
+   2.😒Types of Schedulers In Operating Sysyem || Long Term Scheduler || Short Term || Medium Term || OS
+      🧠 Types of Schedulers in Operating System
+         Schedulers decide which process runs and when.
+
+       ✅ 1. Long-Term Scheduler (Job Scheduler)
+           Selects processes from Job Queue → Ready Queue
+           Controls number of processes in memory
+           👉 Runs less frequently
+
+       ✅ 2. Short-Term Scheduler (CPU Scheduler)
+           Selects process from Ready Queue → CPU
+           Decides which process executes next
+           👉 Runs very frequently (fast)
+
+       ✅ 3. Medium-Term Scheduler
+            Temporarily removes (suspend) / adds processes from memory
+            Helps in swapping to control memory usage     

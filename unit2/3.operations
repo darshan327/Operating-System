@@ -1,0 +1,91 @@
+   1.✌️ Operations on processes || Process Operations || Process Creation || Process Termination || OS
+
+    ✅ Process Operations:
+       1. Process Creation
+       New process is created (by OS or another process)
+       Gets PID and PCB
+       Example: using fork() in UNIX-like systems
+
+       2. Process Termination
+        Process finishes or is killed
+        Resources are released by OS
+        Example: normal exit or forced termination  
+
+
+   2.😃 Function Call
+     🧠 fork()
+       Creates a new child process
+       Child is a copy of parent
+       
+       👉 Returns:
+       
+       0 → in child
+       Child PID → in parent
+
+     🧠 exec()
+        Replaces current process with a new program
+        Does not create a new process
+        
+        👉 Used after fork() to run another program  
+
+     🧠 sleep()
+        Suspends process for a specified time
+        Process goes to waiting state
+        
+        👉 Example: sleep(5) → pauses for 5 seconds 
+
+     🧠 exit()
+        Terminates the process
+        Releases all resources
+        
+        👉 Example: exit(0) → normal termination  
+
+
+    3.😐 Inter Process Communication | Shared Memory | Message Passing | Operating System | IPC | OS
+          IPC is a mechanism that allows processes to communicate and share data with each other.
+
+           1. Shared Memory
+               Processes share a common memory area
+               Each process can read/write data
+               ✅ Advantage:
+                  Very fast (no data copying)
+               ⚠️ Issue:
+               Needs synchronization (to avoid conflicts)             
+                    
+
+           2. Message Passing
+               Processes communicate by sending and receiving messages
+               ✅ Advantage:
+                 Safer (no shared data)
+               ⚠️ Issue:
+                  Slower than shared memory   
+
+     4.🍏 Communication In Client-Server Systems | Sockets | Remote Procedure Calls| RPC | Pipes|| OS?
+          Client–server communication is a model where:
+
+             Client → requests service
+             Server → provides service
+           👉 Communication is done using IPC mechanisms.    
+
+           1. Sockets
+               Endpoint for communication between two systems
+               Works over network (IP + Port)
+               
+               👉 Used in client–server apps (e.g., web) 
+
+
+           2. Remote Procedure Call (RPC)
+               Allows a process to execute a function on another system
+               Looks like a normal function call
+               
+               👉 Hides network complexity  
+
+
+           3. Pipes
+               Used for communication between processes
+               Data flows in one direction
+               
+               👉 Types:
+               
+               Ordinary Pipe (same process family)
+               Named Pipe (between unrelated processes)   
