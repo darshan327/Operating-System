@@ -1,0 +1,73 @@
+ 1.😜 Threads in operating system || Single and Multi-threaded processes || Benefits
+
+     🧠 Threads in Operating System
+         A thread is the smallest unit of execution inside a process.
+         👉 A process can have multiple threads sharing the same memory.
+
+     🧠 Single vs Multi-threaded Process
+        🔹 Single-threaded
+        Only one thread executes
+        One task at a time
+        
+        👉 Example: simple program  
+
+       🔹 Multi-threaded
+            Multiple threads in one process
+            Multiple tasks run concurrently
+            
+            👉 Example: web browser (tabs, downloads)
+
+     🧠 Benefits of Multithreading
+          Faster execution (parallelism)
+          Better CPU utilization
+          Responsiveness (UI doesn’t freeze)
+          Resource sharing (same memory)    
+
+
+
+ 2.😣  Multi-threading Models in operating system || Many to one || Many to many || one to one
+
+           Multithreading models define how user threads are mapped to kernel threads.
+
+          1. Many-to-One Model
+             Many user threads → one kernel thread
+             Managed in user space
+             
+             👉 ❌ If one thread blocks → all block
+             👉 ❌ No true parallelism  
+
+          2. One-to-One Model
+            Each user thread → one kernel thread
+            
+            👉 ✅ True parallelism
+            👉 ❌ High overhead (more resources) 
+
+          3. Many-to-Many Model
+             Many user threads → many kernel threads
+             
+             👉 ✅ Flexible & efficient
+             👉 ✅ Allows parallelism without too much overhead             
+                                                 
+  3.🤒  Threading Issues In Operating Systems  
+
+          Threading issues are problems that arise when multiple threads execute concurrently.   
+
+          1. Race Condition
+              Multiple threads access shared data simultaneously
+              Leads to incorrect results 
+
+          2. Deadlock
+             Threads wait for each other forever
+             No progress  
+
+         3. Starvation
+            A thread never gets CPU/resources
+            Keeps waiting indefinitely    
+
+         4. Thread Synchronization
+            Need mechanisms like mutex, semaphore
+            Ensures correct execution  
+
+         5. Context Switching Overhead
+             Switching between threads takes time
+             Affects performance    
