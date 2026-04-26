@@ -1,0 +1,44 @@
+   1.🥰CPU-I/O Burst Cycle | CPU Bound Process | I/O Bound Process | Operating Systems | Input Output| OS
+
+        🧠 CPU–I/O Burst Cycle
+
+           A process execution consists of alternating:
+           
+           CPU bursts → doing computations
+           I/O bursts → waiting for input/output
+           
+           👉 The cycle repeats until the process finishes.
+
+
+        🧠 CPU-Bound Process
+            Spends more time in CPU bursts
+            Very little I/O
+            
+            👉 Example: calculations, data processing   
+
+        🧠 I/O-Bound Process
+            Spends more time in I/O bursts
+            Less CPU work
+            
+            👉 Example: file reading, user input tasks  
+
+  2.😎 Preemptive Scheduling | Non Preemptive Scheduling | CPU scheduler | Short Term Scheduler | OS 
+  
+        🧠 CPU Scheduler / Short-Term Scheduler
+
+              The CPU scheduler (also called short-term scheduler) selects a process from the ready queue and allocates the CPU.
+
+
+        🧠 Preemptive Scheduling
+             CPU can be taken away from a running process
+             OS can switch to another process anytime
+             
+             👉 Example: Round Robin    
+
+        🧠 Non-Preemptive Scheduling
+             Once a process gets CPU, it runs until completion or waiting
+             No interruption
+             
+             👉 Example: FCFS       
+              
+        
