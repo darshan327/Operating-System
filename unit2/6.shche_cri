@@ -1,0 +1,111 @@
+    1.🙃 Scheduling Criteria In Process Scheduling |Waiting Time|Turnaround Time| Response Time|Operatingsyst
+
+        Scheduling criteria are used to evaluate the performance of CPU scheduling algorithms.
+
+      ✅ 1. Waiting Time
+           Time a process spends in the ready queue
+           👉 Does not include execution time
+           
+           Waiting Time = Turnaround Time − Burst Time
+           ✔️ Goal: Minimize waiting time
+
+       ✅ 2. Turnaround Time
+         Total time from process arrival to completion
+         
+         👉 Turnaround Time = Completion Time – Arrival Time
+         
+         ✔️ Goal: Minimize turnaround time    
+                    
+        ✅ 3. Response Time
+         Time from request submission to first response (first CPU allocation)
+         
+        👉 Response Time = First CPU Start Time − Arrival Time
+        
+         ✔️ Goal: Minimize response time            
+         
+
+    2.😒 FCFS scheduling Algorithm |First Come First Serve |Convoy Effect |Process Scheduling |OS |
+             Processes are executed in the order of arrival
+             It is a non-preemptive scheduling algorithm
+
+            ⚙️ Working:
+                First process in ready queue gets CPU
+                Runs till completion
+                Next process starts
+
+            ⚠️ Convoy Effect
+                A long process blocks all shorter processes behind it
+                
+                👉 Causes:
+                
+                High waiting time
+                Poor CPU & I/O utilization    
+
+
+    3.😯 Shortest Job First Scheduling Algorithm || SJF || Shortest Process Next || SPN || Non Preemptive|| preemptive OS
+        => non-preemptive
+           Selects the process with the smallest burst time
+             It is a non-preemptive scheduling algorithm           
+                                
+          ⚙️ Working:
+               Among all ready processes, choose the one with minimum execution time
+               Once started → runs till completion         
+
+        => preemptive  
+
+              If a new process arrives with shorter remaining time,
+         👉 current process is preempted (stopped)
+         CPU is given to the shortest remaining job  
+
+         
+
+         ✅ Advantages:
+              Minimum average waiting time
+              Efficient for batch systems
+         ❌ Disadvantages:
+              Difficult to know exact burst time
+              May cause starvation (long processes wait)  
+
+
+     4. 🤯 Non Preemptive and preemptive Priority Scheduling Algorithm| Operating System | OS  
+
+        => non-preemptive
+            Each process is assigned a priority
+             CPU is given to the highest priority process
+             It is non-preemptive → once started, process runs till completion        
+
+        => preemptive
+            Each process is assigned a priority
+             CPU is given to the highest priority process
+             It is preemptive → a running process can be interrupted     
+
+         ⚠️ Problem: Starvation
+              Low-priority processes may wait indefinitely
+              
+              👉 Solution: Aging (increase priority over time)  
+    
+           ✅ Advantages:
+              Important tasks get CPU first
+              Suitable for real-time systems
+           ❌ Disadvantages:
+              Starvation of low-priority processes
+
+
+     5. 🤫   Round Robin Scheduling Algorithm| Preemptive | Operating System | OS
+
+              A preemptive scheduling algorithm
+               Each process gets CPU for a fixed time quantum (time slice)  
+
+            ⚙️ Working:
+                Processes are kept in a circular queue
+                Each process runs for time quantum
+                If not finished → moved to end of queue
+                Next process gets CPU    
+
+          ✅ Advantages:
+              Fair scheduling (each gets equal time)
+              Good response time for interactive systems
+              
+          ❌ Disadvantages:
+              Too small quantum → high context switching overhead
+              Too large quantum → behaves like FCFS              
