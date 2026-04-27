@@ -1,0 +1,48 @@
+   😦 synchronization 
+
+     => Process synchronization is needed when multiple processes/threads share data or resources.
+
+       👉 Only one process should enter the critical section at a time.
+
+       ⚠️ Race Condition
+           Occurs when multiple processes access shared data simultaneously
+           Result depends on execution order
+           
+           👉 Leads to incorrect output
+
+       🧠 Producer–Consumer Problem
+             Two processes:
+             Producer → produces data
+             Consumer → consumes data
+             They share a buffer
+             ❗ Problem:
+             Producer may overwrite data
+             Consumer may read empty buffer
+             
+             👉 Needs synchronization (using semaphore/mutex) 
+     
+      
+      🧠 Critical Section Problem in OS
+
+          A critical section is a part of a program where shared data/resources are accessed.
+          
+          👉 The problem is to ensure that only one process executes in the critical section at a time.
+          
+
+         ⚠️ Why it is needed:
+             To avoid race condition
+             To maintain data consistency
+
+
+        Entry Section   → request to enter  
+        Critical Section → access shared resource  
+        Exit Section    → release resource  
+        Remainder Section → other work        
+
+         ✅ Requirements (Conditions):
+            1. Mutual Exclusion
+            Only one process in critical section
+            2. Progress
+            If no process is inside, others should not wait unnecessarily
+            3. Bounded Waiting
+            Every process gets a chance (no starvation)    
