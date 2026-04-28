@@ -1,0 +1,67 @@
+      1.😙 🧠 Peterson’s Solution (Critical Section Problem)
+
+           Peterson’s solution is a software-based method to achieve mutual exclusion between two processes.
+
+           ⚙️ Idea:
+
+             Uses two variables:
+             
+             flag[2] → indicates if a process wants to enter
+             turn → decides whose turn it is
+
+
+          💻 Algorithm (for process i, j = other process)
+            
+             do {
+                flag[i] = true;      // want to enter
+                turn = j;            // give turn to other
+            
+                while(flag[j] && turn == j);  // wait
+            
+                // Critical Section
+            
+                flag[i] = false;     // exit
+            
+                // Remainder Section
+            
+            } while(true);
+
+
+      2.😄 Synchronization Hardware Part 1 || TestAndSet Instruction || Mutual exclusion | Bounded Waiting 
+
+         Hardware support is used to achieve process synchronization efficiently.
+
+           🔹 TestAndSet Instruction
+           It is an atomic operation (executes in one step)
+           Used to implement locks  
+
+          boolean TestAndSet(boolean *lock) {
+               boolean old = *lock;
+               *lock = true;
+               return old;
+           }   
+
+           while (TestAndSet(&lock));   // wait (busy waiting)
+
+              // Critical Section
+              
+              lock = false;   // release
+
+
+       Synchronization Hardware Part 2 || swap Instruction || Mutual exclusion | Bounded Waiting
+
+              void swap(boolean *a, boolean *b) {
+                      boolean temp = *a;
+                      *a = *b;
+                      *b = temp;
+                  }   
+
+           boolean key = true;
+
+               while (key == true) {
+                   swap(&lock, &key);   // try to acquire lock
+               }
+               
+               // Critical Section
+               
+               lock = false;            // release       
