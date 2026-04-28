@@ -1,0 +1,156 @@
+    Classical problems of synchronization 
+        🧠 Semaphores in Operating System
+             
+             semaphores is an integer variable that shared by multiple process.
+
+             👉 It is an integer variable accessed only through special operations.
+
+            ⚙️ Operations on Semaphore
+              🔹 wait() (P operation)
+              Decreases value
+              If value < 0 → process waits 
+
+              🔹 signal() (V operation)
+                 Increases value
+                 Wakes up waiting process
+   
+
+                🔢 Types of Semaphores
+                   1. Binary Semaphore
+                   Values: 0 or 1
+                   Used for mutual exclusion (like mutex)
+
+                   2. Counting Semaphore
+                     Value ≥ 0
+                     Used for multiple resources
+                     
+   
+    1.🧠 Bounded Buffer (Producer–Consumer) Problem
+        A fixed-size buffer is shared between:
+        Producer → adds items
+        Consumer → removes items
+
+        ❗ Problem:
+        Producer may add when buffer is full
+        Consumer may remove when buffer is empty
+        
+        👉 Needs synchronization
+
+        🧠 Solution Using Semaphores
+
+        semaphore mutex = 1;   // for mutual exclusion
+        semaphore empty = n;   // empty slots
+        semaphore full = 0;    // filled slots
+
+        ⚙️ Producer Code:
+
+           wait(empty);      // check empty space
+           wait(mutex);      // enter critical section
+           
+           // add item to buffer
+           
+           signal(mutex);    // exit critical section
+           signal(full);     // increase filled slots
+
+        ⚙️ Consumer Code:
+
+           wait(full);       // check filled items
+           wait(mutex);      // enter critical section
+           
+           // remove item from buffer
+           
+           signal(mutex);    // exit critical section
+           signal(empty);    // increase empty slots  
+
+
+    2.✌️ Readers Writers problem | classical problems of synchronization part 2 | operating system
+
+             🧠 Readers–Writers Problem
+
+                A classical synchronization problem where:
+                
+                Readers → only read data
+                Writers → modify data  
+
+                👉 Both share the same resource (e.g., file/database)
+
+              ❗ Problem:
+                  Multiple readers can read simultaneously
+                  Writer needs exclusive access
+                  No reader should read while writing  
+
+         🔹 Initialize:
+
+               semaphore mutex = 1;   // protects readcount
+               semaphore wrt = 1;     // controls writer access
+               int readcount = 0;     
+
+                ⚙️ Reader: 
+
+                 wait(mutex);
+                readcount++;
+                if (readcount == 1)
+                    wait(wrt);      // first reader blocks writer
+                signal(mutex);
+                
+                // reading
+                
+                wait(mutex);
+                readcount--;
+                if (readcount == 0)
+                    signal(wrt);    // last reader allows writer
+                signal(mutex);  
+
+
+               ⚙️ Writer: 
+
+                  wait(wrt);
+
+                  // writing
+                  
+                  signal(wrt); 
+                                  
+
+    3.😑  Dining Philosophers Problem || Classical Problems of Process Synchronization || Operating Systems  
+
+            🧠 Dining Philosophers Problem
+
+                A classical synchronization problem with:
+                
+                5 philosophers sitting around a table
+                Each needs 2 chopsticks (left & right) to eat
+                
+                👉 Philosophers alternate between thinking and eating       
+
+                    
+                ❗ Problem:
+                   Each philosopher picks one chopstick and waits for the other
+                   👉 Can lead to:
+                   Deadlock (all waiting forever)
+                   Starvation (some never get chance)
+
+                🧠 Solution (Using Semaphores – basic idea)
+                     Use a semaphore for each chopstick
+                     Ensure proper order or control access      
+
+                  Example approach:
+                    Pick both chopsticks only if available
+                    Or allow only 4 philosophers at a time    
+                    
+
+            while (1) {
+        printf("Philosopher %d is thinking\n", id);
+        sleep(1);
+
+        // Pick left chopstick
+        sem_wait(&chopstick[id]);
+        // Pick right chopstick
+        sem_wait(&chopstick[(id + 1) % N]);
+
+        printf("Philosopher %d is eating\n", id);
+        sleep(1);
+
+        // Put down chopsticks
+        sem_post(&chopstick[id]);
+        sem_post(&chopstick[(id + 1) % N]);
+    }          
