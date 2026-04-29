@@ -1,0 +1,43 @@
+  1.🥲 🧠 Deadlock Avoidance (Resource Allocation Graph Algorithm)
+
+       Deadlock avoidance ensures the system never enters an unsafe state.
+
+         👉 It uses a Resource Allocation Graph (RAG) with:
+
+          Process nodes (P)
+          Resource nodes (R)
+          Claim edges (possible future requests)
+
+         ⚙️ Idea:
+             Before allocating a resource, OS checks:
+             👉 “Will this create a cycle in the graph?”
+             If cycle forms → do NOT allocate
+             If no cycle → safe to allocate    
+
+     2.✌️ Deadlock Avoidance part 2 | Banker's algorithm | safety algorithm in deadlock avoidance       
+        🧠 Banker’s Algorithm (Deadlock Avoidance)
+
+           It is used to avoid deadlock by checking whether the system is in a safe state before allocating resources.
+           
+           👉 A request is granted only if the system remains safe 
+
+          🧠 Safety Algorithm
+
+               Used to check whether the system is in a safe state
+               
+               ⚙️ Steps:
+               Find a process whose Need ≤ Available
+               Allocate resources → assume it finishes
+               Release its resources back
+               Repeat for all processes
+               
+               👉 If all processes finish → Safe state
+               👉 Else → Unsafe state 
+
+               ⚠️ Terms to Remember:
+                   Available → free resources
+                   Max → maximum need
+                   Allocation → currently given
+                   Need = Max − Allocation
+
+                   
