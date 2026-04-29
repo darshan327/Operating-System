@@ -40,4 +40,31 @@
                    Allocation → currently given
                    Need = Max − Allocation
 
-                   
+      3. Methods For Handling Deadlocks
+         🧠 Methods for Handling Deadlocks in OS
+
+          There are 4 main methods:
+          
+          1. Deadlock Prevention
+          Break at least one necessary condition
+          
+          👉 🧍 Real-life:
+          Before starting cooking, take all items at once so you don’t wait later
+          
+          2. Deadlock Avoidance
+          Allocate resources only if system stays safe
+          
+          👉 🧍 Real-life:
+          Bank gives loan only if it is sure everyone can repay
+          
+          3. Deadlock Detection and Recovery
+          Allow deadlock to happen, then detect and fix it
+          
+          👉 🧍 Real-life:
+          Traffic jam happens → police comes and clears it
+          
+          4. Ignore Deadlock (Ostrich Algorithm)
+          Assume deadlock is rare → do nothing
+          
+          👉 🧍 Real-life:
+          Ignore small traffic issues unless they become serious             
