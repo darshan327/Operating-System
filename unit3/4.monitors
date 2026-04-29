@@ -1,0 +1,87 @@
+ Monitors in Operating Systems || Process Synchronization
+
+  1.🤒 🧠 Monitors in Operating System
+
+         A monitor is a high-level synchronization construct that ensures only one process/thread executes inside it at a time.
+         
+         👉 It provides automatic mutual exclusion
+
+      ⚙️ Components of Monitor:
+           Shared variables
+           Procedures (functions)
+           Condition variables (for waiting & signaling)   
+
+      🔄 Operations:
+           wait() → process waits inside monitor
+           signal() → wakes up waiting process   
+
+      ✅ Advantages:
+        Easier and safer than semaphores
+        Avoids complex coding errors
+        Built-in mutual exclusion   
+
+      ❌ Disadvantage:
+          Requires language/OS support  
+
+       🧠 Why Monitor is Better than Semaphore
+           🔹 1. Easier to Use
+           Semaphore → programmer must manually handle wait() and signal()
+           Monitor → handled automatically
+           
+           👉 Less chance of mistakes     
+
+
+     2.😦 Dining Philosophers Solution using Monitors in Operating System     
+          Dining Philosophers Solution using Monitors
+
+            Using a monitor, we ensure:
+            
+            Only safe access to chopsticks
+            No deadlock
+            No starvation
+            
+            👉 Monitor controls entry automatically (mutual exclusion)
+
+
+              ⚙️ Idea:
+                 Each philosopher has a state:
+                 THINKING, HUNGRY, EATING
+                 Use condition variables to control eating 
+
+
+          code:
+            monitor DiningPhilosophers {
+    enum {THINKING, HUNGRY, EATING} state[5];
+    condition self[5];
+
+    void pickup(int i) {
+        state[i] = HUNGRY;
+        test(i);
+        if (state[i] != EATING)
+            wait(self[i]);
+    }
+
+    void putdown(int i) {
+        state[i] = THINKING;
+        test((i + 4) % 5);  // left neighbor
+        test((i + 1) % 5);  // right neighbor
+    }
+
+    void test(int i) {
+        if (state[i] == HUNGRY &&
+            state[(i + 4) % 5] != EATING &&
+            state[(i + 1) % 5] != EATING) {
+            
+            state[i] = EATING;
+            signal(self[i]);
+        }
+    }
+}       
+
+       ✅ How it Works:
+          Philosopher eats only if neighbors are not eating
+          Otherwise waits
+          When done → signals neighbors
+        
+
+     =>   Monitor is better than semaphore because it provides automatic mutual exclusion and reduces programming errors, making Dining Philosophers solution safer.
