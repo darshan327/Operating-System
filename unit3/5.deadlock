@@ -1,0 +1,45 @@
+    what is a deadlock in os | Introduction of Deadlock in Operating System | define deadlock
+
+       1.🥲 🧠 Deadlock in Operating System
+
+           A deadlock is a situation where a group of processes are blocked forever, each waiting for a resource held by another process.
+
+           🔄 Example:
+              Process P1 holds Resource A and waits for B
+              Process P2 holds Resource B and waits for A
+              
+              👉 Both wait forever → deadlock
+
+
+      2.😣 deadlock characterization part 1 | necessary conditions for deadlock       
+
+            1. Mutual Exclusion
+                Resource can be used by only one process at a time
+
+            2. Hold and Wait
+               Process holds one resource and waits for another 
+
+            3. No Preemption
+                 Resource cannot be taken away forcefully  
+
+            4. Circular Wait
+                Processes form a cycle, each waiting for next  
+
+
+        3.😙 deadlock prevention in os | deadlock prevention in operating system  
+
+             1. ❌ Mutual Exclusion (reduce if possible)
+                 Use sharable resources where possible       
+
+             2. ❌ Hold and Wait
+                  Process must request all resources at once   
+
+             3. ❌ No Preemption
+                 Take resource away if process is waiting  
+
+             4. ❌ Circular Wait
+                 Assign order to resources and request in that order         
+
+         ⚠️ Drawback:
+            May lead to low resource utilization
+            Processes may wait longer                  
