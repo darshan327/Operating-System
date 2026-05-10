@@ -1,0 +1,67 @@
+     RANDOM ACCESS MEMORY
+
+     RAM (Random Access Memory) is the computer’s temporary working memory.
+      It stores the data and programs that the CPU is currently using so the computer can work quickly.
+
+      Why RAM is needed
+         1. To run programs
+         
+         When you open:
+         
+         Browser
+         Games
+         VS Code
+         MS Word
+         
+         they are loaded from storage (SSD/HDD) into RAM because RAM is much faster.
+
+         2. Faster performance
+
+            CPU can access RAM very quickly.
+            
+            Without RAM:
+            
+            Every task would run directly from SSD/HDD
+            Computer would become extremely slow
+
+        3. Multitasking
+
+            RAM allows multiple applications to stay open at the same time.
+            
+            Example:
+            
+            Chrome + YouTube + WhatsApp + Coding software
+            
+            More RAM = smoother multitasking.   
+
+        4. Temporary storage
+
+            RAM stores:
+            
+            Active files
+            Running apps
+            Background processes
+            Operating system data
+            
+            When power is OFF, RAM data is erased.  
+
+            FLOW :
+            SSD/HDD  →  RAM  →  CPU
+            ( Storage)   (Working Memory)   (Processing)   
+
+         Typical RAM sizes
+            4 GB → basic use
+            8 GB → normal use 
+            16 GB → gaming/programming
+            32 GB+ → heavy editing, AI, virtualization   
+
+
+        Real-life example
+
+           Think of:
+           
+           SSD/HDD = bookshelf
+           RAM = study table
+           CPU = your brain
+           
+           You keep only currently needed books on the table for fast work.    
