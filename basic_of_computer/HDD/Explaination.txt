@@ -1,0 +1,95 @@
+    HARD DISK DRIVE
+
+       It is a storage device used to permanently store data in a computer.
+
+       Main Functionality of HDD
+
+          The HDD:
+          
+          Stores operating system
+          Saves files and folders
+          Keeps data even after shutdown
+          Reads and writes information
+          
+          It is called secondary storage.
+
+          What Does HDD Store?
+
+            HDD stores:
+            
+            Windows/Linux
+            Games
+            Photos
+            Videos
+            Documents
+            Software
+            College projects
+
+        Purpose of HDD
+           1. Permanent Data Storage
+           
+           Unlike RAM, HDD keeps data permanently.
+           
+           Real-life example
+           
+           You save:
+           
+           Photos
+           Assignments
+           Movies
+           
+           Even after turning OFF the laptop, files remain stored.  
+
+           2. Store Operating System
+
+               The operating system is installed in HDD/SSD.
+               
+               Real-life example
+               
+               When laptop starts:
+               
+               Windows loads from storage
+               Applications become available
+               
+            3. Large Capacity Storage
+
+                HDDs can store huge amounts of data.
+                
+                Typical sizes:
+                
+                500 GB
+                1 TB
+                2 TB
+                Real-life example
+                
+                A student stores:
+                
+                Lecture videos
+                Notes
+                Coding projects
+                Games
+                
+                all in HDD.
+
+
+         Speed of HDD
+
+            Typical HDD speed:
+            
+            5400 RPM
+            7200 RPM
+            
+            RPM = Rotations Per Minute
+            
+            Higher RPM = Faster performance.  
+
+       Real-Life Scenario
+            Example 1 – Movie Storage
+            
+            You download:
+            
+            50 movies
+            100 GB game
+            
+            They are stored in HDD.          
+                                      
