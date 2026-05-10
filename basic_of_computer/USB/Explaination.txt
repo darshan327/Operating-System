@@ -1,0 +1,76 @@
+    UNIVERSAL SERIAL BUS
+
+      It is used to connect external devices to a computer.
+
+      Purpose of USB Port
+
+         USB ports help the laptop:
+         
+         Transfer data
+         Connect devices
+         Supply power/charging
+
+        Functions of USB
+          1. Data Transfer
+          
+          Used to copy:
+          
+          Photos
+          Videos
+          Documents
+          Software
+          
+          between devices. 
+
+          2. Connect Input Devices
+
+             USB connects:
+             
+             Keyboard
+             Mouse
+             Game controller
+             Printer
+
+         3. Charging Devices
+
+             USB can provide electrical power.
+             
+             Real-life example
+             
+             You charge:
+             
+             Mobile phone
+             Smartwatch
+             Earbuds
+             
+             through laptop USB port. 
+
+         4. Connect Storage Devices
+
+           USB connects:
+           
+           Pen drives
+           External hard disks
+           SSDs
+           Real-life example
+           
+           You store backup of:
+           
+           Photos
+           Projects
+           Movies
+           
+           on external drive.    
+
+        5. Multimedia Devices
+
+             USB supports:
+             
+             Webcam
+             Microphone
+             Speakers
+             Real-life example
+             
+             During online classes:
+             
+             Webcam and mic connect through USB.      
