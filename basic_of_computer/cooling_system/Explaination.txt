@@ -1,0 +1,93 @@
+   COOLING SYSTEM
+
+     What is the Cooling System?
+
+       The cooling system removes heat produced by:
+       
+       CPU
+       GPU
+       Power components
+       
+       It keeps the laptop at a safe temperature.
+
+       Main Parts of Cooling System
+           1. Cooling Fans
+           
+           The two circular fans in your laptop.
+           
+           Function
+           Pull cool air inside
+           Push hot air outside
+           Real-life example
+           
+           While gaming or coding:
+           
+           CPU temperature increases
+           Fans spin faster to cool system
+
+       2. Heat Pipes
+
+           The black pipes connecting components to fans.
+           
+           Function
+           Carry heat away from CPU/GPU
+           Transfer heat to cooling fins
+           Real-life example
+           
+           Like water pipes carrying hot water away from a machine.  
+
+       3. Heat Sink Fins
+
+           Thin metal fins near the exhaust area.
+           
+           Function
+           Release heat into air
+           
+           Fans blow air through these fins to remove heat.   
+
+
+
+       Purpose of Cooling System
+
+           Prevent Overheating
+           
+           Without cooling:
+           
+           CPU becomes extremely hot
+           Laptop may shut down
+           Performance drops
+
+           Maintain Performance
+           
+               Cooling helps CPU run at full speed.
+               
+               Example
+               
+               During:
+               
+               Gaming
+               Video editing
+               Programming
+               
+               cooling prevents lag and slowdown.
+           
+        Protect Hardware
+           
+             Too much heat can damage:
+             
+             CPU
+             GPU
+             Battery
+             Motherboard
+             
+           Cooling increases laptop lifespan.
+           
+        Real-Life Scenario
+           Example 1 – Gaming
+           
+           While playing GTA or Valorant:
+           
+           CPU/GPU work heavily
+           Temperature rises
+           Fans spin quickly
+           Hot air comes out from side vents       
