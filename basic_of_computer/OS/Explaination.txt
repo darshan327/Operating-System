@@ -1,0 +1,140 @@
+   OPERATING SYSTEM
+
+     What is Operating System (OS)?
+
+        An Operating System is the main software that controls the computer and allows users to run applications.
+
+        Examples:
+
+           Microsoft Windows
+           Ubuntu
+           macOS
+           
+           The OS acts as a bridge between:
+           
+           User
+           Hardware
+           Software
+
+       Where is OS Located in Your Laptop?
+
+           In your laptop:
+           
+           The OS is stored inside the M.2 SSD
+           The SSD contains:
+           Windows/Linux
+           Apps
+           Files
+           System data
+           
+           The OS is software, so it is not a separate visible chip like RAM.    
+
+
+           Main Functions of Operating System
+             1. Booting the Computer
+             
+             OS starts the computer after power ON.
+             
+             Real-life example
+             
+             When you press:
+             
+             Power Button
+             
+             the OS loads and shows:
+             
+             Login screen
+             Desktop
+
+
+
+       2. Managing Hardware
+
+            OS controls:
+            
+            CPU
+            RAM
+            GPU
+            USB devices
+            Storage
+            Real-life example
+            
+            When you plug in:
+            
+            Mouse
+            Keyboard
+            Pen drive
+            
+            the OS detects and manages them. 
+
+
+        3. Running Applications
+
+             OS allows applications to work.
+             
+             Real-life example
+             
+             You open:
+             
+             Chrome
+             VS Code
+             Games
+             YouTube
+             
+             The OS provides resources for them to run.
+
+
+       4. File Management
+
+              OS organizes:
+              
+              Files
+              Folders
+              Storage
+              Real-life example
+              
+              Creating:
+              
+              Notes Folder
+              
+              is managed by the OS. 
+
+
+        5. Memory Management
+
+            OS controls RAM allocation.
+            
+            Real-life example
+            
+            When multiple apps are open:
+            
+            OS distributes RAM properly
+            Prevents system crash         
+
+        6. Security Management
+
+             OS provides:
+             
+             Password login
+             Antivirus support
+             Firewall
+             User permissions
+             Real-life example
+             
+             Windows asks for password before login.
+
+        Real-Life Scenario
+              Example – Daily Laptop Usage
+              
+              You:
+              
+              Press power button
+              BIOS starts
+              OS loads from SSD
+              Desktop appears
+              Open Chrome and VS Code
+              OS manages everything in background
+              
+              Without OS:
+              
+              Laptop cannot be used properly.                   
