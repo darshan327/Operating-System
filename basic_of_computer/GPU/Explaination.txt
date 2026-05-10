@@ -1,0 +1,82 @@
+   GRAPHICS PROCESSING UNIT
+
+       It is a special processor designed to handle:
+
+           Graphics
+           Images
+           Videos
+           3D rendering
+           Parallel processing
+
+      Main Purpose of GPU
+            
+            The GPU improves:
+            
+            Graphics quality
+            Gaming performance
+            Video rendering speed
+            AI and 3D processing
+            
+            It works together with the CPU.  
+
+        Main Functions of GPU
+            1. Render Graphics
+            
+            GPU creates:
+            
+            Images
+            Animations
+            Game graphics
+            Visual effects
+            Real-life example
+            
+            While playing:
+            
+            GTA V
+            Valorant
+            PUBG
+            
+            GPU renders buildings, characters, shadows, and lighting.   
+
+
+         2. Video Processing
+
+              GPU helps decode and render videos smoothly.
+              
+              Real-life example
+              
+              Watching:
+              
+              YouTube 4K videos
+              Netflix HD movies
+              
+              GPU processes video efficiently.  
+
+         3. 3D Modeling and Animation
+
+            GPU handles complex 3D objects.
+            
+            Real-life example
+            
+            Software like:
+            
+            Blender
+            AutoCAD
+            Maya
+            
+            uses GPU for rendering 3D scenes.   
+
+         4. AI and Machine Learning
+
+             Modern GPUs process many calculations simultaneously.
+             
+             Real-life example
+             
+             Used in:
+             
+             AI training
+             Chatbots
+             Image generation
+             Deep learning       
+                                       
+            
