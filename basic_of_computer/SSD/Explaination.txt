@@ -1,0 +1,88 @@
+    Solid state drive
+
+      It is a high-speed storage device used to store:
+
+         Operating System
+         Applications
+         Games
+         Files
+         Photos
+         Videos
+         
+         permanently.
+
+         Where is SSD Located in Your Laptop?
+
+            In your laptop:
+            
+            The SSD is the long slim module installed in the M.2 slot
+            It is located below the RAM area
+            It is an M.2 NVMe SSD
+
+         Main Purpose of SSD
+
+            The SSD:
+            
+            Stores all system data
+            Loads Windows/Linux
+            Opens applications quickly
+            Improves laptop speed
+            
+            It is the main storage device of modern laptops.  
+
+        Main Functions of SSD
+           1. Stores Operating System
+           
+           SSD contains:
+           
+           Windows
+           Linux
+           System files
+           Real-life example
+           
+           When you turn ON the laptop:
+           
+           Windows loads from SSD   
+
+             2. Stores Applications and Games
+
+                 Apps are installed in SSD.
+                 
+                 Real-life example
+                 
+                 Programs like:
+                 
+                 Chrome
+                 VS Code
+                 GTA V
+                 Photoshop
+                 
+                 are stored inside SSD. 
+
+              3. Stores Personal Files
+
+                   SSD stores:
+                   
+                   Notes
+                   PDFs
+                   Photos
+                   Videos
+                   Projects
+                   
+                   permanently.
+                   
+                   Even after shutdown, data remains safe.  
+
+               4. Fast Data Access
+
+                  SSD reads and writes data very quickly.
+                  
+                  Real-life example
+                  
+                  Opening:
+                  
+                  Games
+                  Software
+                  Large files
+                  
+                  is much faster compared to HDD.     
