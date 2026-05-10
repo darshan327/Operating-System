@@ -1,0 +1,84 @@
+  READ ONLY MEMORY
+
+    It is a type of non-volatile memory that permanently stores important startup instructions for the computer.
+
+      In modern laptops, ROM usually contains:
+      
+      BIOS
+      UEFI firmware
+
+
+      Where is ROM Located?
+
+        In your laptop:
+        
+        ROM is a very small chip soldered onto the motherboard
+        It is usually an 8-pin SPI flash chip
+        It stores BIOS/UEFI firmware
+        
+        Unlike RAM or SSD:
+        
+        ROM is not removable easily
+        It is permanently attached to motherboard
+
+
+        Main Purpose of ROM
+
+          ROM helps the laptop:
+          
+          Start properly
+          Check hardware
+          Load the Operating System
+          
+          Without ROM:
+          
+          Laptop cannot boot.
+
+       Main Functions of ROM
+          1. Stores BIOS/UEFI Firmware
+          
+          ROM stores startup software called:
+          
+          BIOS
+          UEFI
+          
+          These instructions start the laptop.
+          
+          Real-life example
+          
+          When you press:
+          
+          Power Button
+          
+          ROM starts first before Windows loads.   
+
+     2. Hardware Initialization
+
+          ROM checks:
+          
+          CPU
+          RAM
+          SSD
+          Keyboard
+          Display
+          
+          This process is called:
+          
+          POST (Power-On Self-Test)
+          Real-life example
+          
+          If RAM is damaged:
+          
+          Laptop may beep
+          Screen may stay black
+          
+          because ROM detected a problem.  
+
+      3. Finds Boot Device
+
+          ROM searches for:
+          
+          SSD
+          HDD
+          
+          that contains the Operating System.       
