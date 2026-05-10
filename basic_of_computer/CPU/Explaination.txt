@@ -1,0 +1,82 @@
+   CENTRAL PROCCESSING UNIT
+
+     The CPU (Central Processing Unit) is called the brain of the computer because it performs all processing and controls the entire system.
+
+     Main uses of the CPU
+        1. Executes Programs
+        
+        When you open:
+        
+        Chrome
+        Games
+        VS Code
+        YouTube
+        
+        the CPU runs the instructions for those applications.
+
+       2. Performs Calculations
+
+            CPU handles:
+            
+            Mathematical calculations
+            Logic operations
+            Data processing
+            
+            Example:
+            
+            Calculating marks
+            Running coding programs
+            Game physics 
+
+       3. Controls Other Components
+
+           CPU communicates with:
+           
+           RAM
+           SSD
+           Keyboard
+           Mouse
+           Display
+           GPU
+           
+           It coordinates all hardware activities.  
+
+
+       4. Multitasking
+
+        CPU helps run multiple applications together.
+        
+        Example:
+        
+        Music playing
+        Browser open
+        Coding software running
+        
+        all at the same time. 
+
+       5. Processes Input and Output
+
+          Example:
+          
+          You press a key
+          CPU processes it
+          Character appears on screen  
+
+       Simple working flow
+
+          Input → CPU → Output  
+
+          example:
+          Keyboard → CPU → Screen      
+
+
+       Real-life example
+
+           Think of a computer like a human body:
+           
+           CPU = Brain
+           RAM = Short-term memory
+           SSD = Long-term storage
+           Fans = Cooling system
+           
+           Without the CPU, the computer cannot function.   
