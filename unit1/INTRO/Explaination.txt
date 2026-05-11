@@ -1,0 +1,148 @@
+    1. 😙  Introduction to Operating Systems
+
+      An Operating System (OS) is the most important system software in a computer. It acts as an interface between the user and computer hardware. Without an operating system, a computer cannot function properly.
+      
+      The operating system controls all hardware devices such as:
+      
+      CPU
+      Memory
+      Keyboard
+      Mouse
+      Hard Disk
+      Printer
+      
+      It also manages software execution and provides an environment for users to run applications.
+
+
+   What is Operating System?
+
+      An Operating System is a software program that manages computer hardware and software resources and provides services for computer programs.
+      
+      Simple Definition
+      
+      “An Operating System is system software that acts as a bridge between the user and computer hardware.”   
+
+
+    Operating System Definition
+
+        Different experts define Operating Systems in different ways:
+        
+        User View
+        OS makes the computer easy to use.
+        System View
+        OS manages hardware resources efficiently.
+        Technical Definition
+        OS is a resource manager and control program. 
+
+
+     2.🤯 Computer System Structure || 4 Components of Computer System || Abstract view of Operating System
+
+            Computer System Structure
+
+               A computer system is made up of different components that work together to perform tasks. The operating system controls and coordinates these components.
+               
+               The basic structure of a computer system consists of:
+               
+               Hardware
+               Operating System
+               Application Programs
+               Users
+
+          4 Components of Computer System
+              1. Hardware
+              
+              Hardware refers to the physical parts of the computer.
+              
+              Examples:
+              CPU
+              RAM
+              Hard Disk
+              Keyboard
+              Mouse
+              Monitor
+              Function:
+              Provides basic computing resources.
+              Performs input, processing, storage, and output operations.
+
+            2. Operating System
+
+                The operating system acts as an interface between hardware and users.
+                
+                Functions:
+                Controls hardware devices
+                Manages memory and CPU
+                Runs applications
+                Provides security
+                Examples:
+                Microsoft Windows
+                Linux
+                Android    
+
+            3. Application Programs
+
+                 Application programs help users perform specific tasks.
+                 
+                 Examples:
+                 Web browsers
+                 MS Word
+                 Games
+                 Media players
+                 Function:
+                 Use system resources to solve user problems.  
+
+
+            4. Users
+
+                Users are the people or systems that use the computer.
+                
+                Types of Users:
+                Single user
+                Multiple users
+                Other computers
+                Function:
+                Interact with applications and the operating system.          
+
+
+      3.😎 What Operating System Do || Depending on user view and System view || Operating Systems        
+
+         What Operating System Do
+
+             An Operating System (OS) manages computer hardware and software resources and provides services to users and application programs.
+             
+             It acts as a bridge between the user and the computer hardware.
+             
+             The operating system performs many important tasks such as:
+             
+             Running programs
+             Managing memory
+             Controlling devices
+             Handling files
+             Providing security
+
+
+         Operating System from User View
+
+            From the user’s point of view, the operating system exists to make the computer easy and convenient to use.
+            
+            Users focus on:
+            
+            Ease of use
+            Fast response
+            User-friendly interface
+            Main Goals in User View
+            Convenience
+            Simplicity
+            Better user experience
+            Example
+            
+            In Microsoft Windows, users interact through:
+            
+            Icons
+            Menus
+            Buttons
+            Desktop environment
+            
+            Users do not need to know hardware details.   
+
+            
+             
