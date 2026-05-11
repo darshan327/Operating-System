@@ -1,0 +1,75 @@
+    
+    1. 😄 Computer System Operation in Operating System
+
+         A computer system works by coordinating hardware and software components. The operating system controls and manages all activities inside the computer system.
+         
+         The CPU, memory, and input/output devices work together under the control of the operating system.
+
+
+       Basic Operation of Computer System
+
+          The operation of a computer system mainly involves:
+          
+          Input Operations
+          Processing Operations
+          Output Operations
+          Storage Operations   
+
+
+           How Computer System Operates
+              1. Booting Process
+              When the computer is turned on, the bootstrap program loads the operating system into memory.
+              After loading, the OS starts controlling the system.
+
+
+              2. Program Execution
+                 User runs an application.
+                 OS loads the program into memory.
+                 CPU executes instructions one by one.
+
+              3. Interrupt Handling
+
+                  An interrupt is a signal sent to the CPU when attention is needed.
+                  
+                  Types of Interrupts
+                  Hardware Interrupt
+                  Software Interrupt  
+
+
+           Main Components of Computer System Organization
+               1. CPU (Central Processing Unit)
+               Brain of the computer.
+               Executes instructions and performs calculations.
+               Functions:
+               Arithmetic operations
+               Logical operations
+               Program execution  
+
+               2. Main Memory (RAM)
+                  Stores programs and data temporarily.
+                  CPU accesses memory directly.
+                  Characteristics:
+                  Fast access
+                  Volatile memory     
+
+              3. Input/Output Devices
+
+                  Used for communication between user and computer.
+                  
+                  Input Devices
+                  Keyboard
+                  Mouse
+                  Scanner
+                  Output Devices
+                  Monitor
+                  Printer
+                  Speakers       
+
+               4. Storage Devices
+
+                   Used for permanent data storage.
+                   
+                   Examples
+                   SSD
+                   Hard Disk
+                   USB Drive     
