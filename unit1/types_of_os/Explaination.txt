@@ -1,0 +1,134 @@
+    
+    Types of Operating Systems
+        
+     An Operating System (OS) is system software that manages computer hardware and software resources. Different operating systems are designed for different purposes and environments.
+     The major types of operating systems are:
+     
+     
+     Batch Operating System
+     
+     
+     Multiprogramming Operating System
+     
+     
+     Time-Sharing Operating System
+     
+     
+     Multiprocessing Operating System
+     
+     
+     Real-Time Operating System
+     
+     
+     Distributed Operating System
+     
+     
+     Network Operating System
+     
+     
+     Mobile Operating System
+          
+
+      1. Batch Operating System
+
+           In a batch operating system, similar jobs are grouped together and executed in batches without user interaction.
+           
+           Features
+           Jobs processed one after another
+           No direct interaction with user
+           Uses job queues
+           Advantages
+           Efficient for large repetitive tasks
+           Reduces setup time
+           Disadvantages
+           Long waiting time
+           Difficult to debug errors   
+
+      2. Multiprogramming Operating System
+
+          In this system, multiple programs are kept in memory at the same time.
+          
+          CPU switches between programs to maximize utilization.
+          
+          Features
+          Multiple jobs in memory
+          Better CPU utilization
+          Increases efficiency
+          Advantages
+          Reduces CPU idle time
+          Improves throughput
+          Disadvantages
+          Complex memory management
+          Requires CPU scheduling      
+
+      3. Time-Sharing Operating System
+
+           Time-sharing systems allow multiple users to share computer resources simultaneously.
+           
+           Each user gets a small amount of CPU time called a time slice.
+           
+           Features
+           Interactive system
+           Multi-user environment
+           Fast response time
+           Advantages
+           Better resource sharing
+           Quick user response
+           Disadvantages
+           Security issues
+           High system overhead   
+
+
+       4. Multiprocessing Operating System
+
+           A multiprocessing OS uses two or more processors in a single system.
+           
+           Processors work together to execute tasks.
+           
+           Features
+           Multiple CPUs
+           Parallel execution
+           Increased speed
+           Advantages
+           High performance
+           Reliability
+           Disadvantages
+           Expensive hardware
+           Complex design     
+
+
+      6. Distributed Operating System
+
+          A distributed OS manages multiple computers connected through a network as a single system.
+          
+          Features
+          Resource sharing
+          Parallel processing
+          Communication between systems
+       Advantages
+          High performance
+          Reliability
+       Disadvantages
+          Network dependency
+          Complex management     
+
+
+       7. Network Operating System
+
+          A network operating system manages computers connected through a network.
+          
+          It provides services like:
+          
+          File sharing
+          Printer sharing
+          User management
+          Features
+          Centralized server
+          Network security
+          Remote access
+          Advantages
+          Easy resource sharing
+          Centralized administration
+          Disadvantages
+          Server dependency
+          High maintenance cost   
