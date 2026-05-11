@@ -1,0 +1,69 @@
+  1.😣  I/O Structure in Operating System
+
+      I/O stands for Input/Output.
+      The I/O structure in an operating system defines how the computer communicates with external devices such as keyboards, monitors, printers, and storage devices.
+      
+      The operating system manages all input and output operations between hardware devices and application programs.
+
+
+      What is I/O in Computer System?
+        Input
+        
+        Data entered into the computer.
+        
+        Examples:
+        Keyboard
+        Mouse
+        Scanner
+        Output
+        
+        Information produced by the computer.
+        
+        Examples:
+        Monitor
+        Printer
+        Speakers
+
+  
+      Need for I/O Structure
+
+         The I/O structure is needed because:
+         
+         CPU speed is very high.
+         I/O devices are slower.
+         OS coordinates communication efficiently.
+         
+         Without proper I/O management, the CPU would waste time waiting for devices.
+
+
+         
+       DMA Concept in Operating System
+           What is DMA?
+           DMA stands for Direct Memory Access.
+           It is a technique that allows input/output devices to transfer data directly between the device and main memory without continuous involvement of the CPU.
+           Normally, the CPU handles every data transfer operation. In DMA, a special hardware unit called the DMA Controller performs the transfer, reducing CPU workload.
+           
+           Need for DMA
+         Without DMA:
+           
+           
+           CPU transfers data byte by byte.
+           
+           
+           CPU becomes busy with I/O operations.
+           
+           
+           System performance becomes slow.
+           
+
+     With DMA:
+
+
+            Large data transfers happen directly.
+            
+            
+            CPU can perform other tasks simultaneously.
+            
+            
+            Overall efficiency increases.
+            
