@@ -1,0 +1,83 @@
+    1. 🤯 Computer System Architecture in Operating Systems |Symmetric Multiprocessing |Asymmetric| Clustered
+
+            Computer System Architecture in Operating Systems
+
+                Computer System Architecture refers to the design and organization of computer systems, including CPUs, memory, and processing methods.
+                
+                Operating systems use different architectures to improve:
+                
+                Performance
+                Reliability
+                Speed
+                Resource sharing
+                
+                Modern computer systems mainly use:
+                
+                Single Processor Systems
+                Multiprocessor Systems
+                Clustered Systems
+
+
+             1. Single Processor System
+
+                   A single processor system has only one CPU.
+                   
+                   Characteristics:
+                   One processor executes all tasks.
+                   Simple design.
+                   Suitable for small systems.
+                   Example:
+                   
+                   Old desktop computers. 
+
+              2. Multiprocessor Systems
+
+                   Multiprocessor systems contain two or more CPUs working together.
+                   
+                   Advantages:
+                   Increased performance
+                   Better reliability
+                   Faster execution
+                   Resource sharing
+                   
+                   Multiprocessor systems are mainly divided into:
+                   
+                   Symmetric Multiprocessing (SMP)
+                   Asymmetric Multiprocessing (AMP)  
+
+
+                 Symmetric Multiprocessing (SMP)
+
+                     In SMP, all processors are equal and share the same memory and operating system.
+                     
+                     Each processor performs tasks independently.
+                     
+                     Features of SMP
+                     Multiple CPUs connected to shared memory
+                     All processors perform equal functions
+                     Any processor can run any process
+                     Improved performance and load balancing      
+
+
+                Asymmetric Multiprocessing (AMP)
+
+                    In AMP, processors are not equal.
+                    
+                    One processor acts as:
+                    
+                    Master processor
+                    
+                    Other processors act as:
+                    
+                    Slave processors
+                    
+                    The master controls the system and assigns tasks to slave processors. 
+
+
+             Types of Clustering
+                  1. Asymmetric Clustering
+                    One machine remains in standby mode.
+                        Active server handles operations.
+                  2. Symmetric Clustering
+                     All machines run applications together.
+                     Monitor each other.             
