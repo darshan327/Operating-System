@@ -1,0 +1,85 @@
+     
+ 1. 😎 Storage Structure in Operating system || Computer System Organization || Operating System
+
+      Storage Structure in Operating System
+
+          Storage structure refers to the way data and programs are stored in a computer system.
+          The operating system manages different types of storage to ensure fast and efficient data access.
+          
+          A computer system uses a storage hierarchy because different storage devices have different:
+          
+          Speed
+          Cost
+          Capacity
+          Volatility
+
+          Purpose of Storage Structure
+
+               The storage structure helps to:
+               
+               Store data and programs
+               Retrieve information quickly
+               Improve system performance
+               Provide permanent and temporary storage
+
+
+           Types of Storage in Computer System
+
+              Storage is mainly divided into:
+              
+              Primary Storage
+              Secondary Storage    
+
+          1. Primary Storage
+
+              Primary storage is directly accessible by the CPU.
+              
+              It is fast but usually smaller in size.
+              
+              Types of Primary Storage
+                a) Registers
+                    Small storage locations inside CPU.
+                    Fastest memory in computer system.
+                    Functions:
+                    Store immediate data and instructions.
+                b) Cache Memory
+                     High-speed memory between CPU and RAM.
+                     Stores frequently used data.
+                     Advantages:
+                     Reduces CPU access time
+                     Improves performance
+                c) Main Memory (RAM)
+                
+                     RAM stands for Random Access Memory.
+                     
+                     Characteristics:
+                     Temporary storage
+                     Volatile memory
+                     Stores running programs
+                     Example:
+                     
+                     When applications are opened, they load into RAM.    
+
+            2. Secondary Storage
+
+                Secondary storage provides permanent data storage.
+                
+                It is slower than primary memory but has larger capacity.
+
+
+                Examples of Secondary Storage
+                   Hard Disk
+                   SSD
+                   USB Drive
+                   CD/DVD         
+
+
+           Characteristics of Storage Hierarchy       
+
+            | Storage Type      | Speed     | Cost      | Capacity   |
+            | ----------------- | --------- | --------- | ---------- |
+            | Registers         | Very High | Very High | Very Small |
+            | Cache             | High      | High      | Small      |
+            | RAM               | Medium    | Medium    | Medium     |
+            | Secondary Storage | Low       | Low       | Large      |
+                  
